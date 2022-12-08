@@ -1,0 +1,50 @@
+html, body{
+  height:100%;
+ }
+
+body{
+	background-image: linear-gradient(to bottom right, #F25C54, #F7B267);
+}
+
+#list-estacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: fit-content;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.btn-estacion {
+	background-image: linear-gradient(to bottom right, #F7B267, #F25C54);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    padding: 10px;
+    height: 100px;
+    width: 250px;
+
+	font-family: 'Rubik';
+}
+
+#title{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	color: white; 
+
+}
+#title p{
+	font-size: 22pt;
+	font-family: 'Rubik';
+}
+
+.card-apodo{
+	font-size: 16pt;
+}
+
+.card-visitas{
+}
