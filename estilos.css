@@ -1,12 +1,27 @@
-html, body{
-  height:100%;
- }
-
-body{
-	background-image: linear-gradient(to bottom right, #F25C54, #F7B267);
+html{
+    height: 100%;
 }
-
+body{
+    height: 100%;
+    --color1: #CAF0F8;
+    --color2: #ADE8F4;
+    --color3: #90E0EF;
+    --color4: #48CAE4;
+    --color5: #00B4D8;
+    --color6: #0096C7;
+    --color7: #0077B6;
+    --color8: #023E8A;
+    --color9: #03045E;
+    background-image: linear-gradient(to bottom right, var(--color1), var(--color8));
+    background-repeat: no-repeat, repeat;
+}
+*{
+    font-family: 'Rubik';
+}
+ 
 #list-estacion {
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,34 +32,52 @@ body{
 }
 
 .btn-estacion {
-	background-image: linear-gradient(to bottom right, #F7B267, #F25C54);
-    color: white;
-    border: 1px solid white;
-    border-radius: 8px;
+	background-color: var(--color1);
+    border: 1px solid black;
+    border-radius: 40px;
     text-decoration: none;
     margin-bottom: 0.5em;
-    padding: 10px;
+    padding-bottom: 20px;
+    width: 300px;
     height: 100px;
-    width: 250px;
-
-	font-family: 'Rubik';
 }
 
 #title{
-	margin-top: 20px;
-	margin-bottom: 30px;
-	margin-left: 10px;
-	color: white; 
-
-}
-#title p{
-	font-size: 22pt;
-	font-family: 'Rubik';
+	background-color: var(--color8);
+    font-size: 22pt;
+    color: white; 
+    padding: 5px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .card-apodo{
-	font-size: 16pt;
+    font-size: 16pt;
+    text-align: center;
+    color: black;
+    background-color: var(--color7);
+    height: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 10px;
+}
+
+.card-ubicacion{
+    font-size: 14pt;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .card-visitas{
+    font-size: 14pt;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
 }

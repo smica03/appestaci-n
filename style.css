@@ -6,6 +6,18 @@ body{
 	background-image: linear-gradient(to bottom right, #FF9E00, #9D4EDD);
 }
 
+#nom-estacion{
+    margin-bottom: 10px; 
+    margin-left: 20px;
+    font-size: 22pt;
+    color: white; 
+    font-family: 'Rubik';
+}
+
+
+
+
+
 #list-estacion {
     display: flex;
     justify-content: center;
