@@ -3,7 +3,7 @@
 <head>
 	<title>app-estacion</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-	<link rel="stylesheet" type="text/css" href="estilos2.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos2.css">
 </head>
 <body>
 	<header id="nom-estacion"></header>
@@ -12,7 +12,7 @@
 <div id="flex">
 		<div class="temp">
 			<div class="icono-chico">
-				<img src="img/temperatura.png" align="center">
+				<img src="../img/temperatura.png" align="center">
 			</div>
 			
 			<div class="titulo">Temperatura </div>
@@ -32,7 +32,7 @@
 
 <div class="temp">
 			<div class="icono-chico">
-				<img src="img/clima.png" align="center">
+				<img src="../img/clima.png" align="center">
 			</div>
 			<div class="titulo">Sensación</div>
 			<div class="valor" id="sensacion">24</div>
@@ -52,7 +52,7 @@
 	<section id="sec-fuego">
 		<div class="temp">
 			<div class="icono-chico">
-				<img src="img/fuego.png" align="center">
+				<img src="../img/fuego.png" align="center">
 			</div>
 			<div id="peligroFuego">Riesgo de incendio: </div>
 			<div class="colum">
@@ -87,12 +87,12 @@
 	<section id="sec-humedad">
 		<div class="temp">
 			<div class="icono-chico">
-				<img src="img/humedad (1).png" align="center">
+				<img src="../img/humedad (1).png" align="center">
 			</div>
 			<div class="titulo">Humedad</div>
 			<div class="valor" id="humedad">24</div>
 			<div class="icono-grande">
-				<img src="img/humedad.png" >
+				<img src="../img/humedad.png" >
 			</div>
 		</div>
 		
@@ -100,12 +100,12 @@
 	<section id="sec-presion">
 		<div class="temp">
 			<div class="icono-chico">
-				<img src="img/atmosferico2.png" align="center">
+				<img src="../img/atmosferico2.png" align="center">
 			</div>
 			<div class="titulo">Presión Atmosférica</div>
 			<div class="valor" id="presion">24</div>
 			<div class="icono-grande">
-				<img src="img/atmosferico.png">
+				<img src="../img/atmosferico.png">
 			</div>
 		</div>
 	</section>
@@ -113,7 +113,7 @@
 	<section id="sec-viento">
 		<div class="temp">
 			<div class="icono-chico">
-				<img src="img/viento-mini.png" align="center">
+				<img src="../img/viento-mini.png" align="center">
 			</div>
 			<div class="titulo">Viento</div>
 			<div class="valor" id="viento">24</div>
@@ -125,7 +125,7 @@
 				<div class="m">
 					<div class="mini-titulo">indeterminado</div>
 					<div class="icono-mediano">
-						<img src="img/viento.png" >
+						<img src="../img/viento.png" >
 					</div>
 						</div>
 			</div>

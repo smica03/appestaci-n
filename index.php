@@ -1,4 +1,4 @@
 <?php
-header("Location: panel.html");
+header("Location: php/panel.php");
 
 ?>
